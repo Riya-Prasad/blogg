@@ -79,11 +79,11 @@ ul{
 }
 
 .nav .nav-items .nav-link a{
-	color: #23689b;
+	color: #184d47;
 }
 
 .nav .nav-items .nav-link:hover{
-	background-color: #cfdac8;
+	background-color: #96bb7c;
 }
 
 .nav .nav-brand{
@@ -97,7 +97,7 @@ ul{
 	display: block;
 	font-size: 1.6rem;
 	text-decoration: none;
-	color: #23689b;
+	color: #184d47;
 }
 
 .nav .social{
@@ -105,7 +105,7 @@ ul{
 }
 
 .nav .social i{
-	color: #23689b;
+	color: #184d47;
 }
 
 .nav .social i:hover{
@@ -151,7 +151,10 @@ main .site-title .btn{
 	padding: 15px 40px;
 	border: none;
 	outline: none;
-	background-color: #70af85;
+	/*background-color: #70af85;*/
+	background: #134E5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #fff;
 	border-radius: 20px 20px;
 }
@@ -207,7 +210,11 @@ main .blog .btn-blog{
 	padding: 10px 20px;
 	border: none;
 	outline: none;
-	background-color: #70af85;
+	/*background-color: #70af85;*/
+	background: #134E5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: #fff;
 	border-radius: 20px 20px;
 }
@@ -227,7 +234,7 @@ section .container .owl-nav{
 .owl-nav .owl-prev .owl-nav-prev,
 .owl-nav .owl-next .owl-nav-next{
 	background: transparent;
-	color: #121013;
+	color: #007965;
 	font-size: 1.5rem;
 }
 
@@ -299,9 +306,13 @@ main .post-content .post-btn{
 	font-weight: 500;
 	padding: 10px 20px;
 	outline: none;
-	background-color: #70af85;
+	/*background-color: #70af85;*/
+	background: #134E5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: #fff;
-	border-radius: 0;
+	border-radius: 20px 20px;
 }
 
 .site-content .pagination{
@@ -342,7 +353,11 @@ main .post-content .post-btn{
 }
 
 .site-content > .sidebar .category-list .list-item{
-	background-color: #70af85;
+	/*background-color: #70af85;*/
+	background: #134E5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	padding: .4rem 1rem;
 	margin: .8rem 0;
 	border-radius: 3rem;
@@ -413,7 +428,11 @@ main .post-content .post-btn{
 	padding: .8rem 28%;
 	margin: 1rem 0;
 	outline: none;
-	background-color: #70af85;
+	/*background-color: #70af85;*/
+	background: #134E5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: #fff;
 	border-radius:0;
 }
@@ -424,7 +443,11 @@ main .post-content .post-btn{
 }
 
 .site-content .sidebar .popular-tags .tag{
-	background-color: #23689b;
+	/*background-color: #23689b;*/
+	background: #2c3e50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: #fff;
 	padding: .4rem 1rem;
 	border-radius: 20px 20px;
@@ -468,7 +491,7 @@ footer.footer .container .about-us p{
 	font-weight: 600;
 	width: 70%;
 	height: 1rem;
-	padding: .5rem .7rem;
+	padding: .8rem .7rem;
 	padding-top: 6.5px;
 	border:none;
 	background: #1a1c20;
@@ -484,7 +507,7 @@ footer.footer .container .about-us p{
 }
 
 footer.footer .newsletter .form-element span{
-	padding: .3rem .5rem;
+	padding: .4rem .6rem;
 	background-color: #23689b;
 	cursor: pointer;
 }
@@ -577,6 +600,15 @@ footer.footer .move-up span:hover{
 
     .site-content .post-content > .post-image .post-info{
         display: none;
+    }
+
+
+    .site-content .sidebar .newsletter{
+    	display: none;
+    }
+
+    .site-content .sidebar .category{
+    	display: none;
     }
 
     footer.footer .container > div{
